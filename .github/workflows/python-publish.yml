@@ -8,7 +8,7 @@ on:   # 触发时机
   push:
     branches: [ master ]  # master有更新
   schedule:
-    - cron:  '*/1 * * * *'  # 每6小时运行一次
+    - cron:  '* */5 * * *'  # 每5小时运行一次
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
