@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
-<head>
-    <meta charset="utf-8">
-    <title>title</title>
-    <meta name="renderer" content="webkit">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
-
-  
 
 </head>
 <body >
@@ -22,6 +11,7 @@
 
 <div style="width:36%;height:200px;border:solid 1px;float:left;margin-left:10px;">
  <h4>&nbsp;&nbsp;我的博客</h4>
+	<blod><a href="https://blog.csdn.net/weixin_44806193">博客主页</a></blod>
 	<ul>
 		<li><a href="https://blog.csdn.net/weixin_44806193/article/details/106272653">检测到目标URL存在http host头攻击漏洞</a> </li>
 		<li><a href="https://blog.csdn.net/weixin_44806193/article/details/104059927">Linux时间服务器配置</a> </li>
