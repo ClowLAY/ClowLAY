@@ -18,7 +18,7 @@ def addIntro(f):
 def addProjectInfo(f):
     txt = '''
 ### 开源项目  
--[slf4j](https://github.com/practise-project/slf4j)  AOP切面使用slf4j记录日志
+- [slf4j](https://github.com/practise-project/slf4j)  AOP切面使用slf4j记录日志
 - [SpringSecurity](https://github.com/practise-project/SpringSecurity) SpringSecurity实现简单权限控制   
 
 [查看更多](https://github.com/ClowLAY/)     
