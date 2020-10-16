@@ -37,7 +37,7 @@ jobs:
       run: |
         git diff
         git config --global user.email "208169110@qq.com"
-        git config --global user.name "ClowLAY"
+        git config --global user.name "→_→"
         git add -A
         git commit -m "Updated Readme" || exit 
         git push
