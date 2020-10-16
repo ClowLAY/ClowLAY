@@ -32,11 +32,10 @@ jobs:
 
     - name: Record time  
       run: echo `date` > date.log
-
+   #git config --global user.email "208169110@qq.com"  这行本来在38行下面，因为经常所以注释掉
     - name: Commit and push if changed   # 将README.md更新到仓库
       run: |
         git diff
-        #git config --global user.email "208169110@qq.com"
         git config --global user.name "ClowLAY"
         git add -A
         git commit -m "Updated Readme" || exit 
